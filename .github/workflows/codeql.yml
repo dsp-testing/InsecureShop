@@ -67,6 +67,7 @@ jobs:
       with:
         distribution: 'adopt'
         java-version: '8'
+
     - run: ./gradlew assembleDebug
 
     # ℹ️ Command-line programs to run using the OS shell.
